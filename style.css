@@ -1,0 +1,1372 @@
+/*caracteristicas generales*/
+
+body {
+    background-color: white;
+    font-family: 'Rubik', sans-serif;
+}
+
+header, section, footer {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*barra de navegacion*/
+
+header {
+    height: 90px;
+    background: linear-gradient(180deg, #2B6CBE 0%, #88C9F1 100%);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+#logo {
+    height: 70%;
+    float: left;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+#botonera {
+    width: 500px;
+    height: 70px;
+    float: right;
+    margin-top: 25px;
+}
+
+#boton1, #boton2, #boton3, #boton4 {
+    background-color: transparent;
+    border: none;
+}
+
+#botonera li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+#botones li {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px; 
+}
+
+#botones a {
+    text-decoration: none;
+    color: white;
+    padding: 1em;
+    font-family: 'Bebas Neue';
+    font-size: 20px;
+}
+
+/*contenido 1: about us*/
+
+#content1 {
+    /*background-color: pink;*/
+    height:max-content;
+    margin-top: 30px;
+}
+
+#part1 {
+    height: 336px;
+    /*background-color: grey;*/
+}
+
+.inicio1 {
+    width: 370px;
+    height: 336px;
+    /*background-color: white;*/
+    float: left;
+    margin-left: 25px;
+    text-align: center;
+}
+
+.inicio2 {
+    width: 514px;
+    height: 336px;
+    /*background-color: white;*/
+    float: left;
+    margin-left: 25px;
+    text-align: left;
+}
+
+h1 {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    margin: 0px;
+    margin-top: 10px;
+    color: #000000;
+}
+
+#clientname {
+    font-family: 'Bebas Neue';
+    font-weight: 100;
+    font-size: 35px;
+    margin: 0px;
+    color: #6fbfb1;
+}
+
+p {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    
+}
+
+#part2 {
+    height: 520px;
+    margin-top: 15px;
+    /*background-color: grey;*/
+}
+
+#petname {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 35px;
+    margin: 0px;
+    margin-left: 25px;
+    color: black;
+}
+
+#service1 {
+    /*background-color: #F2CD5B;*/
+    height: 470px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.info h5, p {
+    text-align: left;
+}
+
+.queofrecemos1, .queofrecemos2, .queofrecemos3 {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    /*background-color: cadetblue;*/
+}
+
+.img{
+    width: 250px;
+    /*background-color: aquamarine;*/
+    margin: 0px;
+    padding: 0;
+    padding-top: 10px;
+}
+
+#img2 {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.interact {
+    height: 290px;
+}
+
+.texto h5{
+    /*background-color: aquamarine;*/
+    margin: 0px;
+    margin-top: 10px;
+    padding: 0;
+    padding-top: 5px;
+    float: left;
+    text-align: left;
+}
+
+h5 {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 25px;
+    margin: 0%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    padding: 0%;
+    color: #F2A8C3;
+}
+
+#info1, #info2, #info3 {
+    /*background-color: aquamarine;*/
+    margin: 0px;
+    margin-top: 10px;
+    padding: 0;
+    padding-top: 5px;
+    float: left;
+    text-align: left;
+}
+
+
+.leyenda {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000000;
+    margin: 0px;
+    margin-right: 10px;
+    padding: 0px;
+}
+
+#part3 {
+    height: 570px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    /*background-color: grey;*/
+}
+
+#necessity{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 35px;
+    margin: 0;
+    margin-left: 25px;
+    padding-top: 5px;
+    color: black;
+}
+
+.service2 {
+    width: 910px;
+    height: 490px;
+    background-color: #88c9f2;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+#imagenesmascotas {
+    height:490px;
+}
+
+/*contenido 2: precios*/
+
+#content2 {
+    background-color: #88c9f2;
+    height: 650px;
+    margin-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#precio1, #precio2, #precio3 {
+    height: 550px;
+    border: 3px solid #000000;
+    box-shadow: 5px 5px 0px #000000;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+#tipology {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 35px;
+    margin: 0;
+    margin-left: 25px;
+    padding: 0;
+    padding-top: 25px;
+    color: white;
+}
+
+/*contenido 3: contacto*/
+
+#content3 {
+    /*background-color: grey;*/
+    height: 400px;
+}
+
+#contact2{
+    width: 442px;
+    height: 400px;
+    float: right;
+    padding: 20px;
+    /*background-color: #F2A8C3;*/
+    text-align: right;
+    }
+    
+    #contact2 img {
+        max-width: 70%;
+    }
+
+#news {
+    /*background-color: #6fbfb1;*/
+    height:400px;
+    margin-top: 15px;
+}
+
+#form {
+    height: 400px;
+}
+
+#newlestter {
+    /*background-color: red;*/
+    text-align: center;
+}
+
+.sectitle {
+    text-transform: uppercase;
+    font-family: 'Bebas Neue';
+}
+
+#contact {
+    /*background-color:#F2A8C3;*/
+    text-align: center;
+    padding: 10px;
+}
+
+#formulario2 {
+    background-color: transparent;
+    border: none;
+}
+
+#namecontact, #mailcontact, #doubt {
+    border: 3px solid #000000;
+    border-radius: 20px;
+}
+
+input, textarea {
+    margin-top: 10px;
+    border: 3px solid #000000;
+    box-shadow: 5px 5px 0px #000000;
+}
+
+#buttom {
+    margin-top: 10px;
+    width: 30%;
+    float: right;
+}
+
+/*contenido 4: auspiciantes*/
+
+#content4 {
+    /*background-color: grey;*/
+    height: 180px;
+    margin-top: 15px;
+}
+
+#sponsors {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 35px;
+    margin: 0;
+    margin-left: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: black;
+    text-transform: uppercase;
+}
+
+#auspiciantes {
+    /*background-color: #6fbfb1;*/
+    height: 100px;
+}
+
+.auspiciantes {
+    max-width: 100%;
+    height: fit-content;
+    opacity: 60%;
+}
+
+#marcas {
+    height: 100px;
+}
+
+#marca1 {
+    /*background-color: red;*/
+}
+
+#marca2 {
+    /*background-color: purple;*/
+}
+
+#marca3 {
+    /*background-color: peru;*/
+}
+
+#marca4 {
+    /*background-color: palevioletred;*/
+}
+
+#marca5 {
+    /*background-color: lavender;*/
+}
+
+/*footer*/
+
+footer {
+    background: linear-gradient(180deg, #88C9F1 0%, #2B6CBE 100%);
+    height: 200px;
+    box-shadow: 0px -5px 20px rgba(0, 0, 0, 0.50);
+}
+
+.pagsec {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    
+}
+
+.logo {
+    width: 200px;
+    height: 70px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 65px;
+
+}
+
+.recursos {
+    width: 500px;
+    height: 150px;
+    /*background: rgba(43, 108, 190, 0.5);*/
+    border-radius: 10px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 25px;
+}
+
+h4 {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    }
+
+.re {
+    padding-top: 20px;
+    }
+    
+li {
+    color: white;
+    list-style-type: none;
+    font-size: 12px;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+#trial a {
+    text-decoration: none;
+    color: white;
+}
+
+@media all and (min-width: 600px) and (max-width:1023px) {
+
+header, section, footer {
+    width: 599px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*cabecera: botonera*/
+
+#botonera {
+    width: 400px;
+    height: 35px;
+    background-color: transparent;
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+#logo {
+    width: 100px;
+}
+
+#botones {
+    margin-top: 20px;
+}
+
+.botones li {
+    font-family: 'Bebas Neue';
+    font-weight: 100;
+    font-size: 10px; 
+    padding: 5px;
+}
+
+#boton1, #boton2, #boton3, #boton4 {
+    background-color: transparent;
+    border: none;
+    padding: 0%;
+}
+
+.botones a {
+    text-decoration: none;
+    color: white;
+}
+
+/*contenido 1: about us*/
+
+#content1 {
+    height:auto;
+    margin-top: 15px;
+    /*background-color: grey;*/
+}
+
+#part1 {
+    height: 270px;
+    width: auto;
+    /*background-color: pink;*/
+}
+
+.inicio1 {
+    width: 262px;
+    height: 270px;
+    /*background-color: white;*/
+    float: left;
+    margin-left: 25px;
+    text-align: center;
+}
+
+img[class="presentacion1"] {
+    height: 238px;
+    margin-top: 15px;
+}
+
+.inicio2 {
+    width: 262px;
+    height: 270px;
+    /*background-color: white;*/
+    float: left;
+    margin-left: 25px;
+    text-align: left;
+    padding-top: 5px;
+}
+    
+#clientname {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 25px;
+    margin-top: 8px;
+    color: #6fbfb1;
+}
+
+h1 {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 250;
+    font-size: 35px;
+    margin-top: 3px;
+    color: #000000;
+}
+        
+p {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 250;
+    font-size: 15px;
+    color: #000000;
+}
+
+
+#part2 {
+    height:370px;
+    margin-top: 10px;
+    /*background-color: yellowgreen;*/
+}
+    
+#petname {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 25px;
+    margin: 0px;
+    margin-left: 25px;
+    padding: 0;
+    color: black;
+}
+
+#service1 {
+    /*background-color: #F2CD5B;*/
+    height: 320px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.info h5, p {
+    text-align: left;
+}
+
+.queofrecemos1, .queofrecemos2, .queofrecemos3 {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height:fit-content;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /*background-color: cadetblue;*/
+}
+
+.img{
+    width: 150px;
+    /*background-color: aquamarine;*/
+    margin: 0px;
+    padding: 0;
+    padding-top: 10px;
+}
+
+#img1, #img2, #img3 {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.interact {
+    height: 160px;
+}
+
+.texto h5{
+    /*background-color: aquamarine;*/
+    margin: 0px;
+    margin-top: 10px;
+    padding: 0;
+    padding-top: 5px;
+    float: left;
+    text-align: left;
+}
+
+h5 {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18px;
+    margin: 0%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    padding: 0%;
+    color: #F2A8C3;
+}
+
+#info1, #info2, #info3 {
+    /*background-color: aquamarine;*/
+    margin: 0px;
+    margin-top: 10px;
+    padding: 0;
+    padding-top: 5px;
+    float: left;
+    text-align: left;
+}
+
+.leyenda {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    margin: 0px;
+    padding: 0px;
+}
+
+#part3 {
+    height: 355px;
+    /*background-color: blue;*/
+}
+
+#necessity{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 25px;
+    margin: 0;
+    margin-left: 25px;
+    padding: 0;
+    color: black;
+}
+
+.service2 {
+    width: 549px;
+    height: 300px;
+    background-color: #88c9f2;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+#imagenesmascotas {
+    height:300px;
+}
+
+#imagenesmascotas img {
+    width: 100%;
+}
+
+/*contenido 2: precios*/
+
+#content2 {
+    background-color: #88c9f2;
+    height: 580px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 0;
+}
+
+#tipology {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 25px;
+    margin: 0px;
+    margin-left: 25px;
+    color: white;
+}
+
+#precio1, #precio2, #precio3 {
+    height:500px;
+}
+
+#botonprecio1 {
+    margin-top: 24px;
+}
+
+/*contenido 3: contacto*/
+
+#content3 {
+    /*background-color: red;*/
+    height:385px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+#news {
+    margin-top: 0%;
+}
+
+#newlestter {
+    /*background-color: red;*/
+}
+
+#contact2 {
+    width: 100%;
+    /*background-color: #6fbfb1;*/
+    height: fit-content;
+    text-align: center;
+    float: none;
+    margin: 0;
+    margin-top: 50px;
+}
+
+.sectitle {
+    margin: 0%;
+    padding: 5px;
+}
+
+/*contenido 4: sponsors*/
+
+#content4 {
+    /*background-color: grey;*/
+    height: 90px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+#marcas {
+    height:70px;
+    margin-top: 10px;
+}
+
+#auspiciantes {
+    height: 70px;
+}
+
+#sponsors {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 25px;
+    margin: 0;
+    margin-left: 25px;
+    padding: 0;
+    color: black;
+}
+
+.auspiciantes {
+    max-width: 100%;
+    height: fit-content;
+    opacity: 60%;
+}
+
+/*footer*/
+
+footer {
+    background: linear-gradient(180deg, #88C9F1 0%, #2B6CBE 100%);
+    height: 150px;
+    box-shadow: 0px -5px 20px rgba(0, 0, 0, 0.50);
+}
+
+.pagsec {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    
+}
+
+.logo {
+    width: 150px;
+    float: left;
+    margin-left: 35px;
+    margin-top: 40px;
+
+}
+
+.recursos {
+    width: 300px;
+    height: 150px;
+    /*background: rgba(43, 108, 190, 0.5);*/
+    border-radius: 10px;
+    float: right;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+h4 {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    }
+
+.re {
+    padding-top: 20px;
+    }
+    
+li {
+    color: white;
+    list-style-type: none;
+    font-size: 12px;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+#trial a {
+    text-decoration: none;
+    color: white;
+}
+
+}
+
+@media all and (max-width: 599px) {
+
+    header, body, main, section, footer {
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*cabecera: botonera*/
+
+    header{
+        height: auto;
+        padding: 0%;
+        text-align: center;
+    }
+
+    #logo {
+        width: 40%;
+        float: none;
+        display: block;
+        margin: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #botonera {
+        width: auto;
+        height: fit-content;
+        float: none;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #boton1, #boton2, #boton3, #boton4 {
+        padding: 0%;
+        margin: 0%;
+
+    }
+
+    ul {
+        padding: 0;
+        text-align: center;
+    }
+
+    .botones li {
+        font-family: 'Bebas Neue';
+        text-align: center;
+    }
+
+    #botones a {
+        text-decoration: none;
+        color: white;
+        padding: 1em;
+        font-family: 'Bebas Neue';
+        font-size: 16px;
+    }
+
+    /*contenido 1: about us*/
+
+    #content1 {
+        height: auto;
+        /*background-color: #6fbfb1;*/
+        margin: 0;
+        margin-top: 15px;
+    }
+
+    #part1 {
+        height: auto;
+        width: auto;
+        /*background-color: pink;*/
+    }
+
+    .inicio1 {
+        width: auto;
+        height: auto;
+        /*background-color: white;*/
+        float: none;
+        margin-left: 15px;
+        margin-right: 15px;
+        text-align: center;
+    }
+
+    img[class="presentacion1"] {
+        height: 200px;
+    }
+    
+    .inicio2 {
+        width: auto;
+        height: auto;
+        float: none;
+        /*background-color: white;*/
+        margin: 0;
+        margin-top: 10px;
+        padding: 0;
+        text-align: left;
+    }
+
+    #clientname {
+        font-family: 'Bebas Neue';
+        font-size: 25px;
+        margin: 0px;
+        margin-left: 15px;
+        display: flex;
+        align-items: center;
+        color: #6fbfb1;
+    }
+
+    h1 {
+        font-family: 'Bebas Neue';
+        font-style: normal;
+        font-weight: 250;
+        font-size: 35px;
+        margin: 0px;
+        margin-top: 1px;
+        margin-left: 15px;
+        margin-right: 15px;
+        display: flex;
+        align-items: center;
+        color: #000000;
+    }
+    
+    p {
+        font-family: 'Rubik', sans-serif;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        color: #000000;
+        margin: 0;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    #part2 {
+        height:370px;
+        width: auto;
+        /*background-color: yellowgreen;*/
+        margin-top: 15px;
+    }
+        
+    #petname {
+        font-family: 'Bebas Neue';
+        font-size: 20px;
+        margin: 0px;
+        margin-left: 15px;
+        padding: 0;
+        color: black;
+    }
+    
+    #service1 {
+        /* background-color: #F2CD5B; */
+        width: auto;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .info h5, p {
+        text-align: left;
+    }
+    
+    .queofrecemos1, .queofrecemos2, .queofrecemos3 {
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        height: fit-content;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        /* background-color: cadetblue; */
+    }
+    
+    .img {
+        width: 100px;
+        /*background-color: aquamarine;*/
+        margin: 0%;
+        padding: 0%;
+        text-align: center;
+    }
+
+    #img2 {
+        margin: 0%;
+    }
+
+    .interact {
+        height: 100px;
+    }
+    
+    .texto h5{
+        /*background-color: aquamarine;*/
+        margin: 0px;
+        margin-top: 5px;
+        padding: 0;
+        padding-top: 5px;
+        float: left;
+        text-align: left;
+    }
+    
+    h5 {
+        font-family: 'Bebas Neue';
+        font-style: normal;
+        font-weight: 100;
+        font-size: 15px;
+        margin: 0%;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 0%;
+        color: #F2A8C3;
+    }
+    
+    #info1, #info2, #info3 {
+        /*background-color: blue;*/
+        margin: 0px;
+        margin-top: 5px;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding: 0;
+        padding-top: 5px;
+        float: right;
+        text-align: left;
+    }
+    
+    .leyenda {
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+        color: #000000;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #part3 {
+        height: 230px;
+        margin-top: 15px;
+        /*background-color: blue;*/
+    }
+    
+    #necessity{
+        font-family: 'Bebas Neue';
+        font-size: 20px;
+        margin: 0;
+        margin-left: 15px;
+        padding: 0;
+        color: black;
+    }
+
+    .service2 {
+        width: auto;
+        height: 190px;
+        background-color: #2B6CBE;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 10px;
+    }
+
+    #imagenesmascotas {
+        height:190px;
+    }
+
+    /*contenido 2: precios*/
+
+    #content2 {
+        background-color: #88c9f2;
+        height:fit-content;
+        padding-top: 5px;
+        padding-bottom: 25px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    #tipology {
+        font-family: 'Bebas Neue';
+        font-size: 20px;
+        margin: 0px;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding: 0;
+        padding-top: 15px;
+        display: flex;
+        align-items: center;
+        color: white;
+    }
+
+    #precio1, #precio2, #precio3 {
+        height: fit-content;
+        padding: 5px;
+        margin-top: 15px;
+    }
+
+    #img11, #img22, #img33 {
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5px;
+    }
+
+    #botonprecio1, #botonprecio2, #botonprecio3 {
+        margin-top: 10px;
+    }
+
+    /*contenido 3: contacto*/
+
+    #content3 {
+        /*background-color: red;*/
+        height: fit-content;
+        padding-bottom: 10px;
+    }
+    
+    #contact1 {
+        width:auto;
+        height: auto;
+        text-align: center;
+        float: none;
+        /*background-color: #FFFFFF;*/
+        margin: 0px;
+        padding: 0px;
+        padding-bottom: 15px;
+    }
+
+    #contact2{
+    width:auto;
+    height:fit-content;
+    float: none;
+    text-align: center;
+    /*background-color: #F2A8C3;*/
+    padding: 0%;
+    margin: 0px;
+    margin-top: 15px;
+    text-align: right;
+    padding-right: 10px;
+    }
+
+    #dogpic {
+        width: 100%;
+    }
+
+    #news {
+        /*background-color: #6fbfb1;*/
+        height: fit-content;
+    }
+    
+    #form {
+        height: fit-content;
+    }
+    
+    #newlestter {
+        /*background-color: red;*/
+        text-align: center;
+    }
+    
+    #contact {
+        /*background-color: antiquewhite;*/
+        text-align: center;
+        margin: 0%;
+        padding: 0%;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    input, textarea {
+        margin-top: 10px;
+        border: 3px solid #000000;
+        box-shadow: 5px 5px 0px #000000;
+    }
+    
+    .sectitle {
+        text-transform: uppercase;
+        font-family: 'Bebas Neue';
+    }
+    
+    input, textarea, button {
+        margin-top: 15px;
+    }
+    
+    /*contenido 4: auspiciantes*/
+
+    #content4 {
+        /*background-color: grey;*/
+        height: 200px;
+        margin-bottom: 10px;
+    }
+
+    #sponsors {
+        font-family: 'Bebas Neue';
+        font-size: 20px;
+        margin: 0;
+        margin-left: 15px;
+        padding: 0;
+        color: black;
+    }
+    
+    #auspiciantes {
+        /*background-color: #6fbfb1;*/
+        height: 200px;
+    }
+    
+    #marcas {
+        height: 50px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    #marca1 {
+        /*background-color: red;*/
+        height: 50px;
+    }
+    
+    #marca2 {
+        /*background-color: purple;*/
+        height: 50px;
+    }
+    
+    #marca3 {
+        /*background-color: peru;*/
+        height: 50px;
+    }
+    
+    #marca4 {
+        /*background-color: palevioletred;*/
+        height: 50px;
+    }
+
+    .auspiciantes {
+        max-width: 100%;
+        height: 50px;
+        opacity: 60%;
+    }
+
+    /*footer*/
+
+    footer {
+        background: linear-gradient(180deg, #88C9F1 0%, #2B6CBE 100%);
+        height: 200px;
+        box-shadow: 0px -5px 20px rgba(0, 0, 0, 0.50);
+        text-align: center;
+    }
+
+    
+    .logo {
+        width: 150px;
+        float:none;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 25px;
+    
+    }
+    
+    .recursos {
+        width: 90%;
+        height: 100px;
+        /*background: rgba(43, 108, 190, 0.5);*/
+        border-radius: 10px;
+        margin-left: 10px;
+        margin-right: 15px;
+        text-align: center;
+    }
+    
+    h4 {
+        font-family: 'Bebas Neue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        }
+    
+    .re {
+        padding-top: 20px;
+    }
+        
+        
+    li {
+        color: white;
+        list-style-type: none;
+        font-size: 10px;
+        margin: 0px;
+        margin-top: 8px;
+    }
+}

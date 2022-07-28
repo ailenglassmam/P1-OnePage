@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PawHost</title>
+    <!--css bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--mi css-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--Fuentes Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Odibee+Sans&family=PT+Serif:wght@700&family=Red+Hat+Display:ital@0;1&family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Odibee+Sans&family=PT+Serif:wght@700&family=Red+Hat+Display:ital@0;1&family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header id="inicio">
+        <img id="logo" src="logo.svg" alt="logo">
+       <nav id="botonera">
+            <div class="btn-group" role="group" id="botones" aria-label="Basic example">
+                <button type="button" class="btn btn-primary" id="boton1"> <a href="#content1">About Us</a></button>
+                <button type="button" class="btn btn-primary" id="boton2"><a href="#content2">Prices</a></button>
+                <button type="button" class="btn btn-primary" id="boton3"><a href="#content3">Contact Us</a></button>
+                <button type="button" class="btn btn-primary" id="boton4"><a href="#content4">Sponsors</a></button>
+              </div>
+            </nav>
+    </header>
+
+    <main>
+
+        <section id="content1">
+
+        <article id="part1">
+        <div class="inicio1">
+            <img class="presentacion1" src="inicio.png" alt="inicio" height="336px" >
+        </div>
+
+        <div class="inicio2">
+            <h3 id="clientname">Hey,</h3>
+            <h1>May your pet enjoy the holidays like you</h1>
+            <p>We are a nursery that allows pets to exercise and socialize with their peers, always in the care of specialized personnel who will take care of them as if they were at home.</p>
+            </div>
+        </article>
+
+        <article id="part2">
+            <h2 id="petname"> 
+                What services will your pet enjoy 
+             </h2></a>
+
+             <div id="service1">
+            
+                <!-- inicio producto1 -->
+                <div class="queofrecemos1">
+            
+                    <div class="img">
+                        <a id="interaction1" href="#part2" onmouseenter="mostrarInfo('info1')" onmouseleave="ocultarInfo('info1')"><img id="img1" class="interact" src="vet.png" alt="24hs vet attention" height="200px"></a>
+                    </div>
+                    <div class="texto">
+                        <h5 id="title1">24 hour medical service</h5>
+                        <div id="info1" style="display: none;">
+                            <p class="leyenda">Our hosts will be cared for by a professional team of veterinarians who will be able to assist your pet in any emergency.</p>
+                        </div>
+                    </div>
+            
+                </div>
+                <!-- fin producto1 -->
+
+                <!-- inicio producto2 -->
+                <div class="queofrecemos2">
+            
+                    <div class="img">
+                        <a id="interaction1" href="#part2" onmouseenter="mostrarInfo('info2')" onmouseleave="ocultarInfo('info2')"><img id="img2" class="interact" src="personalat.png" alt="personal atention" height="200px"></a>
+                    </div>
+                    <div class="texto">
+                        <h5 id="title2">personalized attention</h5>
+                        <div id="info2" style="display: none;">
+                            <p class="leyenda">We provide personalized service to each of our customers, making them feel at home.</p>
+                        </div>
+                    </div>
+            
+                </div>
+                <!-- fin producto2 -->
+
+                <!-- inicio producto3 -->
+                <div class="queofrecemos3">
+            
+                    <div class="img">
+                        <a id="interaction1" href="#part2" onmouseenter="mostrarInfo('info3')" onmouseleave="ocultarInfo('info3')"><img id="img3" class="interact" src="company.png" alt="company" height="200px"></a>
+                    </div>
+                    <div class="texto">
+                        <h5 id="title3">Permanent coexistence</h5>
+                        <div id="info3" style="display: none;">
+                            <p class="leyenda">All our hosts will be in permanent contact enjoying our facilities, always under the supervision of the caretakers.</p>
+                        </div>
+                    </div>
+            
+                </div>
+                <!-- fin producto3 -->
+                
+            </div>
+        </article>
+
+        <article id="part3">
+            <h2 id="necessity">Our customers enjoying our facilities</h2>
+               <div class="service2">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner" id="imagenesmascotas">
+                      <div class="carousel-item active">
+                        <img id="perros1" src="pets1.jpg" class="d-block w-100" alt="pets enjoying">
+                      </div>
+                      <div class="carousel-item">
+                        <img id="perros2" src="pets2.jpg" class="d-block w-100" alt="pets enjoying">
+                      </div>
+                      <div class="carousel-item">
+                        <img id="perros4" src="pets4.jpg" class="d-block w-100" alt="pets enjoying">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+               </div> <!--carrousel bootstrap-->
+        </article>
+        </section>
+
+        <section id="content2">
+            <h2 id="tipology"> 
+                Our different plans for you</h2>
+            <div class="container">
+                <div class="row">
+                  <div class="col-sm-4">
+                    <div class="card" id="precio1" >
+                        <img src="work.png" class="card-img-top" id="img11" alt="work">
+                        <div class="card-body">
+                        <h5 class="card-title">BRONZE</h5>
+                        <h3 class="card-title">$10/mo</h3>
+                        <p class="card-text">Daily care. We have 3 shifts so that your pet is not left alone while you work.</p>
+                        <a href="#form" class="btn btn-primary" id="botonprecio1">GET STARTED</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="card" id="precio2">
+                        <img src="vacations.png" class="card-img-top" id="img22" alt="vacations">
+                        <div class="card-body">
+                        <h5 class="card-title">SILVER</h5>
+                        <h3 class="card-title">$15/mo</h3>
+                        <p class="card-text">Temporary. Enjoy your holidays and that your pet also in our establishment.</p>
+                        <a href="#form" class="btn btn-primary" id="botonprecio2">GET STARTED</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="card" id="precio3">
+                        <img src="longtravel.png" class="card-img-top" id="img33" alt="travels">
+                        <div class="card-body">
+                        <h5 class="card-title">GOLD</h5>
+                        <h3 class="card-title">Consult</h3>
+                        <p class="card-text">Permanent stay. Leave your pet in the best hands during your long-term trip.</p>
+                        <a href="#form" class="btn btn-primary" id="botonprecio2">CONTACT US</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+        </section>
+
+        <section id="content3">
+            <div id="news" class="container-fluid">
+                <div id="form" class="row">
+                    <div id="newlestter" class="col-sm-6">
+                        <article id="contact2">
+                            <img src="casualdog.png" alt="casualdog" id="dogpic" width="339px">
+                        </article>
+                    </div>
+                    <div id="contact" class="col-sm-6">
+                        <h2 class="sectitle" id="contact">Check if there is availability<br>Contact Us</h2>
+                        <form class="form-control" id="formulario2" action="#content5">
+                            <input class="form-control" type="text" name="namecontact" id="namecontact" placeholder="Your name" required>
+                            <input class="form-control" type="email" name="mailcontact" id="mailcontact" placeholder="Your email" required>
+                            <textarea class="form-control" rows="3" id="doubt" placeholder="Is there availability the second half of January?" required></textarea>
+                            <button type="button" class="btn btn-primary" id="buttom" class="form-control">SEND</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="content4">
+            <h2 id="sponsors">Our Sponsors</h2>
+            <div id="auspiciantes" class="container-fluid">
+                <div id="marcas" class="row">
+                    <div id="marca1" class="col-sm-3"> <img class="auspiciantes" src="royalcanin.jpg" alt="Royal Canin" height="187px"></div>
+                    <div id="marca2" class="col-sm-3"> <img class="auspiciantes" src="osspret.jpg" alt="Osspret" height="187px"></div>
+                    <div id="marca3" class="col-sm-3"> <img class="auspiciantes" src="whiskas.jpg" alt="Whiskas" height="187px"></div>
+                    <div id="marca4" class="col-sm-3"> <img class="auspiciantes" src="frontline.jpg" alt="Frontline" height="187px"></div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <a href="#inicio"><img class="logo" src="logo.svg"></a>
+        <div class="recursos">
+            <h4 class="re">Resources</h4>
+            <ul class="redes">
+            <li id="trial">Illustration by <a href="https://icons8.com/illustrations/author/zD2oqC8lLBBA">Icons 8</a> from <a href="https://icons8.com/illustrations">Ouch!</a></li>
+            <li id="nombre">2022, Glassmam Ailén. Buenos Aires, Argentina.</li>
+            </ul>
+        </div>
+        
+    </footer>
+
+    <!--js bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!--mi js-->
+    <script type="text/javascript" src="unidad8.js"></script>
+    
+</body>
+</html>
